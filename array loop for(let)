@@ -1,0 +1,12 @@
+for (let i = 0; i < perks.length; i++) {
+	let perk = perks[i];
+	for (let j = 0; j < perks.perkName.length; j++) {
+		let subject1 = perks.perkName[j];
+        for (let k = 0; k < perks.perkEffect.length; k++) {
+		     let subject2 = perks.perkEffect[k];
+             for (let l = 0; l < perks.perkPercent.length; l++) {
+		          let subject3 = perks.perkPercent[l];
+             }
+        }
+   }
+}
